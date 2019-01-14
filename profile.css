@@ -1,0 +1,368 @@
+body{
+    background:#f1f3fa;
+    margin:0;
+    padding:0;
+    font-family:Ariel, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+
+}
+
+
+/*global*/
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  display: flex;
+}
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+a {
+  text-decoration: none;
+}
+
+ /*header**/
+
+
+header{
+  background:#000;
+  height: 5vh;
+  padding-top: 10px;
+  width: 100%;
+  min-height: 70px;
+  border-bottom: #e8491d, 3px solid;
+}
+
+
+
+header li{
+  display: inline-block;
+}
+
+
+header a{
+  color:#fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size:12px;
+  transition: .3s;
+
+
+}
+
+
+
+
+header li{
+  float:left;
+  display: inline;
+  padding:0 20px 0 20px;
+
+}
+
+header #branding{
+  float:left;
+  margin-top: 1px;
+  margin-left:60px;
+  padding: 0;
+  font-size: 12px;
+ 
+}
+header #branding h1{
+  margin:0;
+}
+
+
+
+/*
+nav .open-slide{
+  float: left;
+  margin-left: 10px;
+  } */
+
+.navbar-nav{
+  float:right;
+  margin-top:5px;
+ 
+
+}
+
+header li.active a{
+  border: 1px solid white;
+}
+header .highlight, header .active a{
+  color:#e8419d;
+  font-weight:bold;
+}
+ header a:hover{
+   color:#e8419d;
+   font-weight:bold;
+ }
+
+ /*navigation*/
+
+
+#nav{
+    
+  
+  margin-top: 15px;
+  margin-left:330px;
+  margin-right:300px;
+  background:#000;
+  padding: 0;
+  font-size: 20px;
+  border:1px solid #e8419d;
+ 
+}
+.navbar{
+    
+  float:center;
+  margin-top:5px;
+}
+
+
+
+#nav li{
+  display: inline-block;
+}
+
+
+#nav a{
+  color:#fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size:16px;
+  
+
+
+}
+
+
+
+
+#nav li{
+  float:left;
+  display: inline;
+  padding:0 20px 0 20px;
+
+}
+
+
+#nav li.linkstyle a{
+  border: 1px solid #e8419d;
+}
+
+
+ #nav a:hover{
+   color:#e8419d;
+   font-weight:bold;
+ }
+
+
+
+#nav-side{
+    
+  width:200px;
+  margin-top: 20px;
+  margin-left:120px;
+  float:left;
+  background:#000;
+  padding: 0;
+  border:1px solid #e8419d;
+ 
+}
+
+
+
+
+
+
+#nav-side li{
+  display: inline-block;
+}
+
+
+#nav-side a{
+  color:#fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size:12px;
+  
+
+
+}
+
+
+
+
+#nav-side li{
+  display: inline;
+  padding:0 20px 0 20px;
+
+}
+
+
+
+
+#nav-side li.active a{
+  border: 1px solid white;
+}
+#nav-side .highlight, #nav-side .active a{
+  color:#e8419d;
+  font-weight:bold;
+}
+
+
+ #nav-side a:hover{
+   color:#e8419d;
+   font-weight:bold;
+ }
+
+
+
+
+
+
+#profile{
+  margin-right:300px;
+  margin-top:2px;
+  
+}
+
+#profile table{
+ margin:10px;
+ margin-top:1px;
+  
+  padding: 0;
+  font-size: 15px;
+  border:1px solid #e8419d;
+
+}
+
+#Artistbio{
+  margin-right:300px;
+  margin-top:2px;
+  
+
+
+
+}
+
+
+#Artistbio table{
+   margin-top:10px;
+  
+  padding: 0;
+  font-size: 15px;
+  border:1px solid #e8419d;
+
+}
+
+#media{
+  
+  margin-right:300px;
+  margin-top:2px;
+
+}
+
+
+#media table{
+    margin-top:10px;
+  
+  padding: 0;
+  font-size: 15px;
+  border:1px solid #e8419d;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ <td width="129" rowspan="5"><img src="img4.jpg" width="129" height="129" alt="no image found"/></td>
+ */
+
+
+
+
+
+
+
+
+
+/*
+
+    <?php
+
+     $conn= mysqli_connect("localhost", "root", "", "load"); ;
+     
+    if (!$conn)
+    {
+        die ("no database found");
+    }
+   
+
+    
+    $result3 = mysql_query("SELECT * FROM registration  where mem_id='$id'");
+    while($row3 = mysql_fetch_array($result3))
+    { 
+    $username=$row3['username'];
+    $email=$row3['email'];
+    $address=$row3['address'];
+    $contact=$row3['contact'];
+    $picture=$row3['picture'];
+    $gender=$row3['gender'];
+    }
+    ?>
+
+  
+
+
+*/

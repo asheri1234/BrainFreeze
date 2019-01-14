@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: o; 
+    font-family:Ariel, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    background-color: #111;
+
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+  display: flex;
+}
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+ /*header**/
+
+
+header{
+  background:#000;
+  height: 5vh;
+  padding-top: 10px;
+  width: 100%
+  min-height 70px;
+  border-bottom: #e8491d, 3px solid;
+}
+
+
+
+header li{
+  display: inline-block;
+}
+
+
+header a{
+  color:#fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size:12px;
+  transition: .3s;
+
+
+}
+
+
+
+
+header li{
+  float:left;
+  display: inline;
+  padding:0 20px 0 20px;
+
+}
+
+header #branding{
+  float:left;
+  margin-top: 1px;
+  margin-left:60px;
+  padding: 0;
+  font-size: 12px;
+  transition: .3s;
+
+}
+header #branding h1{
+  margin:0;
+}
+
+/*
+nav .open-slide{
+  float: left;
+  margin-left: 10px;
+  } */
+
+.navbar-nav{
+  float:right;
+  margin-top:5px;
+  transition: .3s;
+
+}
+
+header li.active a{
+  border: 1px solid white;
+}
+header .highlight, header .active a{
+  color:#e8419d;
+  font-weight:bold;
+}
+ header a:hover{
+   color:#e8419d;
+   font-weight:bold;
+ }
+
+
+
+
+
+
+
+
+#main{
+    border: 1px solid white;
+    width: 550px;
+    height:600px;
+    margin: 24px auto;
+}
+
+#message_area{
+  background:#000;
+  color:#fff;
+    width: 100%;
+    border: 1px solid #e8419d;
+    height: 541px;
+}
